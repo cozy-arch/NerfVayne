@@ -7,14 +7,15 @@
 
 class KeyChord{
     private:
-        int id;
+        //int id;
         std::vector<std::string> keys;
         int difficulty;
     public:
-        KeyChord(int id_, const std::vector<std::string>& keys_, int difficulty_); //constructor
+        //KeyChord(int id_, const std::vector<std::string>& keys_, int difficulty_); //constructor
+        KeyChord(const std::vector<std::string>& keys_, int difficulty_);
         bool matches(const KeyChord& input) const;
         bool isSimultaneous() const;
-        int getId() const;
+        //int getId() const;
         int getDifficulty() const;
         friend std::ostream& operator<<(std::ostream& os, const KeyChord& chord);
 };

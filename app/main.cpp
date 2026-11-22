@@ -34,7 +34,8 @@ int main() {
             if (std::cin >> k) 
                 pressed.push_back(k);
         }
-        KeyChord input(0, pressed, keyCount);
+        //KeyChord input(0, pressed, keyCount);
+        KeyChord input(pressed, keyCount);
         std::cout << "Pressed: " << input;
         if(input.isSimultaneous()){
             std::cout << " (SIMULTANEOUS!)";

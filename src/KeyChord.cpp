@@ -13,17 +13,25 @@ bool KeyChord::isSimultaneous() const {
     return false;
 }
 
+/* 
 int KeyChord::getId() const {
     return id;
-}
+} 
+*/
 
 int KeyChord::getDifficulty() const {
     return difficulty;
 }
 
+/*
 KeyChord::KeyChord(int id_,const std::vector<std::string>& keys_, int difficulty_) : id(id_), keys(keys_), difficulty(difficulty_) {
     std::sort(keys.begin(), keys.end());
-}
+} 
+*/
+
+KeyChord::KeyChord(const std::vector<std::string>& keys_, int difficulty_) : keys(keys_), difficulty(difficulty_) {
+    std::sort(keys.begin(), keys.end());
+} 
 
 std::ostream& operator<<(std::ostream& os, const KeyChord& chord) {
     os << "[";

@@ -87,10 +87,11 @@ bool BattleRun::loadAndSpawnWave(const std::string& chordsPath, const std::strin
     chordsFile >> chordsJson;
     chordCatalog.clear();
     for (const auto& item : chordsJson["chords"]){
-        int id = item["id"].get<int>();
+        //int id = item["id"].get<int>();
         std::vector<std::string> keys = item["keys"].get<std::vector<std::string>>();
         int difficulty = item["difficulty"].get<int>();
-        chordCatalog.push_back(KeyChord(id, keys, difficulty));
+        //chordCatalog.push_back(KeyChord(id, keys, difficulty));
+        chordCatalog.push_back(KeyChord(keys, difficulty));
     }
     
     std::ifstream enemiesFile(enemiesPath);
