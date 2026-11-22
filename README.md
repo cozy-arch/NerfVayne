@@ -1,4 +1,8 @@
-# Nu primesc notă pentru că nu am pus titlu și descriere
+# Meowgic Defender
+
+Meowgic Defender este un joc 2D de tip defense inspirat din Divineko și The Battle Cats, dezvoltat în C++. Jucătorul își apără baza împotriva valurilor de inamici introducând secvențe aleatoare de combinații de taste (WASD și săgeți, atât simple, cât și apăsate simultan), unii inamici dezvăluindu-și simbolurile progresiv, pas cu pas.
+
+Înainte de fiecare run, jucătorul poate personaliza dificultatea, boss-ul (ales sau aleatoriu), viața bazei și seed-ul de generare. În etapele următoare vor fi adăugați inamici și boși cu mecanici speciale, o mini-economie cu buff-uri și o interfață grafică.
 
 ### Folosiți template-ul corespunzător grupei voastre!
 
@@ -33,29 +37,29 @@ O cerință nu se consideră îndeplinită dacă este realizată doar prin cod g
 
 ### Tema 0
 
-- [ ] Nume proiect (poate fi schimbat ulterior)
-- [ ] Scurtă descriere a temei alese, ce v-ați propus să implementați
+- [x] Nume proiect (poate fi schimbat ulterior)
+- [x] Scurtă descriere a temei alese, ce v-ați propus să implementați
 
 ## Tema 1
 
 #### Cerințe
-- [ ] definirea a minim **3-4 clase** folosind compunere cu clasele definite de voi; moștenirile nu se iau în considerare aici
-- [ ] constructori de inițializare cu parametri pentru fiecare clasă
-- [ ] pentru o aceeași (singură) clasă: constructor de copiere, `operator=` de copiere, destructor
+- [x] definirea a minim **3-4 clase** folosind compunere cu clasele definite de voi; moștenirile nu se iau în considerare aici
+- [x] constructori de inițializare cu parametri pentru fiecare clasă
+- [x] pentru o aceeași (singură) clasă: constructor de copiere, `operator=` de copiere, destructor
 <!-- - [ ] pentru o altă clasă: constructor de mutare, `operator=` de mutare, destructor -->
 <!-- - [ ] pentru o altă clasă: toate cele 5 funcții membru speciale -->
-- [ ] `operator<<` pentru **toate** clasele pentru afișare (`std::ostream`) folosind compunere de apeluri cu `operator<<`
-- [ ] cât mai multe `const` (unde este cazul) și funcții `private`
-- [ ] implementarea a minim 3 funcții membru publice pentru funcționalități netriviale specifice temei alese, dintre care cel puțin 1-2 funcții mai complexe
+- [x] `operator<<` pentru **toate** clasele pentru afișare (`std::ostream`) folosind compunere de apeluri cu `operator<<`
+- [x] cât mai multe `const` (unde este cazul) și funcții `private`
+- [x] implementarea a minim 3 funcții membru publice pentru funcționalități netriviale specifice temei alese, dintre care cel puțin 1-2 funcții mai complexe
   - nu doar citiri/afișări sau adăugat/șters elemente într-un/dintr-un vector
-- [ ] scenariu de utilizare **cu sens** a claselor definite:
+- [x] scenariu de utilizare **cu sens** a claselor definite:
   - crearea de obiecte și apelarea tuturor funcțiilor membru publice în main
   - vor fi adăugate în fișierul `tastatura.txt` DOAR exemple de date de intrare de la tastatură (dacă există) pentru a acoperi cât mai multe cazuri; dacă aveți nevoie de date din fișiere, creați alte fișiere separat
-- [ ] minim 52-60% din codul propriu să fie C++, adică să aveți mai mult cod decât ce e inclus în template; testele nu se pun, nu vă luați după procentajul din interfața web; detalii la ore
+- [x] minim 52-60% din codul propriu să fie C++, adică să aveți mai mult cod decât ce e inclus în template; testele nu se pun, nu vă luați după procentajul din interfața web; detalii la ore
 - [x] `.gitattributes` configurat corect (nu trebuie făcute modificări aici)
-- [ ] tag de `git`: de exemplu `v0.1`
-- [ ] serviciu de integrare continuă (CI) cu **toate bifele**; exemplu: GitHub Actions
-- [ ] code review #1 2 proiecte
+- [x] tag de `git`: de exemplu `v0.1`
+- [x] serviciu de integrare continuă (CI) cu **toate bifele**; exemplu: GitHub Actions
+- [x] code review #1 2 proiecte
 
 ## Tema 2
 

@@ -1,0 +1,54 @@
+{
+    "enemies": [
+        {
+            "name": "Stray Kitten",
+            "speed": 6.0,
+            "damage": 10,
+            "reward": 15,
+            "revealOneByOne": false,
+            "minSteps": 2,
+            "maxSteps": 3,
+            "maxChordDifficulty": 1
+        },
+        {
+            "name": "Zoomies Cat",
+            "speed": 9.5,
+            "damage": 8,
+            "reward": 20,
+            "revealOneByOne": false,
+            "minSteps": 3,
+            "maxSteps": 4,
+            "maxChordDifficulty": 1
+        },
+        {
+            "name": "Shield Cat",
+            "speed": 5.0,
+            "damage": 15,
+            "reward": 30,
+            "revealOneByOne": true,
+            "minSteps": 3,
+            "maxSteps": 4,
+            "maxChordDifficulty": 2
+        },
+        {
+            "name": "Shadow Panther",
+            "speed": 7.5,
+            "damage": 20,
+            "reward": 40,
+            "revealOneByOne": true,
+            "minSteps": 4,
+            "maxSteps": 5,
+            "maxChordDifficulty": 2
+        },
+        {
+            "name": "Boss Chonker",
+            "speed": 3.5,
+            "damage": 50,
+            "reward": 100,
+            "revealOneByOne": true,
+            "minSteps": 5,
+            "maxSteps": 7,
+            "maxChordDifficulty": 2
+        }
+    ]
+}

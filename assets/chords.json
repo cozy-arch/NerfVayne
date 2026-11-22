@@ -1,0 +1,184 @@
+{
+    "chords": [
+        {
+            "id": 1,
+            "keys": ["w"],
+            "difficulty": 1
+        },
+        {
+            "id": 2,
+            "keys": ["a"],
+            "difficulty": 1
+        },
+        {
+            "id": 3,
+            "keys": ["s"],
+            "difficulty": 1
+        },
+        {
+            "id": 4,
+            "keys": ["d"],
+            "difficulty": 1
+        },
+        {
+            "id": 5,
+            "keys": ["up"],
+            "difficulty": 1
+        },
+        {
+            "id": 6,
+            "keys": ["left"],
+            "difficulty": 1
+        },
+        {
+            "id": 7,
+            "keys": ["down"],
+            "difficulty": 1
+        },
+        {
+            "id": 8,
+            "keys": ["right"],
+            "difficulty": 1
+        },
+        {
+            "id": 9,
+            "keys": ["w", "a"],
+            "difficulty": 2
+        },
+        {
+            "id": 10,
+            "keys": ["w", "s"],
+            "difficulty": 2
+        },
+        {
+            "id": 11,
+            "keys": ["w", "d"],
+            "difficulty": 2
+        },
+        {
+            "id": 12,
+            "keys": ["w", "up"],
+            "difficulty": 2
+        },
+        {
+            "id": 13,
+            "keys": ["w", "left"],
+            "difficulty": 2
+        },
+        {
+            "id": 14,
+            "keys": ["w", "down"],
+            "difficulty": 2
+        },
+        {
+            "id": 15,
+            "keys": ["w", "right"],
+            "difficulty": 2
+        },
+        {
+            "id": 16,
+            "keys": ["a", "s"],
+            "difficulty": 2
+        },
+        {
+            "id": 17,
+            "keys": ["a", "d"],
+            "difficulty": 2
+        },
+        {
+            "id": 18,
+            "keys": ["a", "up"],
+            "difficulty": 2
+        },
+        {
+            "id": 19,
+            "keys": ["a", "left"],
+            "difficulty": 2
+        },
+        {
+            "id": 20,
+            "keys": ["a", "down"],
+            "difficulty": 2
+        },
+        {
+            "id": 21,
+            "keys": ["a", "right"],
+            "difficulty": 2
+        },
+        {
+            "id": 22,
+            "keys": ["s", "d"],
+            "difficulty": 2
+        },
+        {
+            "id": 23,
+            "keys": ["s", "up"],
+            "difficulty": 2
+        },
+        {
+            "id": 24,
+            "keys": ["s", "left"],
+            "difficulty": 2
+        },
+        {
+            "id": 25,
+            "keys": ["s", "down"],
+            "difficulty": 2
+        },
+        {
+            "id": 26,
+            "keys": ["s", "right"],
+            "difficulty": 2
+        },
+        {
+            "id": 27,
+            "keys": ["d", "up"],
+            "difficulty": 2
+        },
+        {
+            "id": 28,
+            "keys": ["d", "left"],
+            "difficulty": 2
+        },
+        {
+            "id": 29,
+            "keys": ["d", "down"],
+            "difficulty": 2
+        },
+        {
+            "id": 30,
+            "keys": ["d", "right"],
+            "difficulty": 2
+        },
+        {
+            "id": 31,
+            "keys": ["up", "left"],
+            "difficulty": 2
+        },
+        {
+            "id": 32,
+            "keys": ["up", "down"],
+            "difficulty": 2
+        },
+        {
+            "id": 33,
+            "keys": ["up", "right"],
+            "difficulty": 2
+        },
+        {
+            "id": 34,
+            "keys": ["left", "down"],
+            "difficulty": 2
+        },
+        {
+            "id": 35,
+            "keys": ["left", "right"],
+            "difficulty": 2
+        },
+        {
+            "id": 36,
+            "keys": ["down", "right"],
+            "difficulty": 2
+        }
+    ]
+}
